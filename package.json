@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/estebanquintana6/pena_de_bernal/issues"
   },
-  "homepage": "https://github.com/estebanquintana6/pena_de_bernal#readme"
+  "homepage": "https://github.com/estebanquintana6/pena_de_bernal#readme",
+  "dependencies": {
+    "angular": "^1.7.4",
+    "bootstrap": "^4.1.3"
+  }
 }

@@ -570,7 +570,7 @@ main.scale-down {
 }
 
 .datos_image {
-  background-image: url("../../resources/img/imag_datos_curiosos.jpg");
+  background-image: url("../../resources/img/img_datos_curiosos.jpg");
 }
 
 .ecologia_image{
@@ -579,6 +579,10 @@ main.scale-down {
 
 .quellevar_image{
   background-image: url("../../resources/img/img_que_llevar.jpg");
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

@@ -553,13 +553,36 @@ main.scale-down {
   position: relative;
 }
 
-.home-image {
+.home_image {
+  background-image: url("../../resources/img/img_intro.jpg");
+}
+
+.about_image {
   background-image: url("../../resources/img/home_image.jpg");
 }
 
-.about-image {
-  background-image: url("../../resources/img/home_image.jpg");
+.flora_image {
+  background-image: url("../../resources/img/img_flora_fauna.jpg");
 }
+
+.acerca_image {
+  background-image: url("../../resources/img/img_acerca_pena.jpg");
+}
+
+.datos_image {
+  background-image: url("../../resources/img/imag_datos_curiosos.jpg");
+}
+
+.ecologia_image{
+  background-image: url("../../resources/img/img_ecologia.jpg");
+}
+
+.quellevar_image{
+  background-image: url("../../resources/img/img_que_llevar.jpg");
+}
+
+
+
 
 
 

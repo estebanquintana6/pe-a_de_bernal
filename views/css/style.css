@@ -547,64 +547,27 @@ main.scale-down {
   transition: transform 0.4s 0s;
   -webkit-overflow-scrolling: touch;
 }
-
 .cd-section header {
   height: 100vh;
+  background-image: url("../../resources/img/img_intro.jpg");
   position: relative;
 }
-
-.home_image {
-  background-image: url("../../resources/img/img_intro.jpg");
-}
-
-.about_image {
-  background-image: url("../../resources/img/home_image.jpg");
-}
-
-.flora_image {
+.cd-section.projects header {
   background-image: url("../../resources/img/img_flora_fauna.jpg");
 }
-
-.acerca_image {
-  background-image: url("../../resources/img/img_acerca_pena.jpg");
-}
-
-.datos_image {
-  background-image: url("../../resources/img/img_datos_curiosos.jpg");
-}
-
-.ecologia_image{
-  background-image: url("../../resources/img/img_ecologia.jpg");
-}
-
-.quellevar_image{
-  background-image: url("../../resources/img/img_que_llevar.jpg");
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-
-.cd-section.projects header {
-  background-color: #5c4b51;
-}
 .cd-section.about header {
-  background-color: #e0cf75;
+  background-image: url("../../resources/img/img_acerca_pena.JPG");
 }
 .cd-section.services header {
-  background-color: #f5b65a;
+  background-image: url("../../resources/img/img_datos_curiosos.JPG");
 }
 .cd-section.careers header {
-  background-color: #f25f5c;
+  background-image: url("../../resources/img/img_ecologia.jpg");
 }
 .cd-section.contact header {
-  background-color: #8abeb2;
+  background-image: url("../../resources/img/img_que_llevar.jpg");
 }
+
 @media only screen and (min-width: 700px) {
   .cd-section {
     /* not 100vh to fix a small bug --> border visible otherwise */

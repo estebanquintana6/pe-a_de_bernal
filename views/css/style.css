@@ -628,6 +628,7 @@ main.scale-down {
   font-size: 1.3em;
   max-width: 800px;
   margin: 2em auto;
+  text-align: justify;
   line-height: 2;
   color: #78626a;
 }
